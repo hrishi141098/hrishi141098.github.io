@@ -10,10 +10,11 @@ redirect_from:
 Weather forecasting is one of the spheres that affect crops to grow, or even determine if we should travel or not, and that have to do with disaster preparedness. The traditional basis of forecasting, Numerical Weather Prediction (NWP), has been around for decades successfully fulfilling the function of capturing atmospheric dynamics in simulation models, which are highly dependent on physics. Thereby, the technologies like these on the machine learning domain together provided a better improvement in the field of weather forecasting. METNET, the type of neural network that used smart algorithms to help the forecaster’s make a prediction of rainfall intensity with an outstanding accuracy. This blog post aims to lead you into the structure of METNET which will be done by uncovering the architecture, functions, and the future potential of the program
  </div>
 
-<div style="text-align: justify"> ![Weather Change in the globe](/images/weather.gif) </div>
+![Weather Change in the globe](/images/weather.gif =250x)
 
 Diving into MetNet: Forecasting with -=-==-==-=--=--????
 ======
+
 Overview
 ------
 Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
