@@ -1,14 +1,13 @@
 ---
 permalink: /
-title: "MetNet: A NeuralWeather Model for Precipitation Forecasting"
+title: "MetNet: A Neural Weather Model for Precipitation Forecasting"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-
-Arthi has helped to build this page, but HRISHIKESH needs to edit it further This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+Weather forecasting is one of the spheres that affect crops to grow, or even determine if we should travel or not, and that have to do with disaster preparedness. The traditional basis of forecasting, Numerical Weather Prediction (NWP), has been around for decades successfully fulfilling the function of capturing atmospheric dynamics in simulation models, which are highly dependent on physics. Thereby, the technologies like these on the machine learning domain together provided a better improvement in the field of weather forecasting. METNET, the type of neural network that used smart algorithms to help the forecaster’s make a prediction of rainfall intensity with an outstanding accuracy. This blog post aims to lead you into the structure of METNET which will be done by uncovering the architecture, functions, and the future potential of the program
 
 ![Weather Change in the globe](/images/weather.gif)
 
