@@ -21,7 +21,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "chnage.jpg"
+  avatar           : "change.jpg"
   name             : "Hrishikesh Kate"
   pronouns         : # example: "she/her"  
   bio              : "Masters Student at University of Stuttgart, Germany,(Information Technology)"
