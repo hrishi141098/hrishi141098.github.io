@@ -30,12 +30,15 @@ Comparison with other model
 
 Experiments
 ------
+
 Real-Time Applications and Implications
 ------
-1. Disaster Management
-2. Urban Planning
-3. Agriculture
-4. Transportation 
+1. **Disaster Management**
+2. **Urban Planning**
+3. **Agriculture**Precise forecasts of precipitation are of utmost in developing the agricultural practices in many areas. Through the provision of farmers with the possibility of creating irrigation plans which are based on the expected rainfall, resources are saved, costs are cut down and the water wastage is reduced. Besides, exact predictions help the farmers to foresee the weather conditions and hence, they can protect the crops from the adverse conditions thereby ultimately reducing the risk of damage and thus increasing the productivity. Moreover, the planning of the application of the agricultural inputs, which are fertilizers and pesticides, based on the forecasts of the weather events, gives the farmers an advantage of the better crop health, the success of treatments, and the cost-effectiveness.
+   
+4. **Transportation** 
+
 Future Direction
 ------
 
