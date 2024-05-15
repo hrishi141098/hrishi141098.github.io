@@ -26,6 +26,8 @@ Model Description
 ------
 ![Metnet architecture](/images/modelArchitecture.png)
 ![Metnet Input data](/images/MetnetInput.png)
+
+
 Why better than other model ?
 ------
 <div style="text-align: justify"> 
