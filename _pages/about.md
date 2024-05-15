@@ -24,19 +24,27 @@ MetNet is a deep learning model that is specially designed for the short-term fo
 
 Model Description 
 ------
+ 
 
-Comparison with other model 
+Why better than other model ?
 ------
+<div style="text-align: justify"> 
+Other models give to some extent the forecasts, but MetNet model is outstanding due to its singularity and high precision in the following areas:MetNet differs from the traditional model that is based on NWP models only by combining neural networks with different meteorological data. These information from this fusion helps MetNet interpret the weather conditions very accurately and detailedly to get more reliable forecasts.There is an intelligent part in the MetNet's design (convolutional layers) which helps with the analysis of huge and complex meteorological data. With the ability of following the changing complex weather operations the feature is important for real-time weather forecasting.MetNet is also contrasted to the other models which only possess a single form of definite outcome. The seasonal forecast in MetNet provides this sector with probabilistic forecast information with meaningful operating information around weather uncertainty issues. Hence, its decision making can be based on the forecast scenarios.
+In conclusion, MetNet defeats all the other methods of forecasting because of the type of holistic model, a much complexer architecture with probabilistic forecasting abilities that take into account system accuracy, reliability, and feasibility.
+</div>
 
 Experiments
 ------
 
+
 Real-Time Applications and Implications
 ------
 1. **Disaster Management**
-2. **Urban Planning**
-3. **Agriculture** <div style="text-align: justify">Precise forecasts of precipitation are of utmost in developing the agricultural practices in many areas. Through the provision of farmers with the possibility of creating irrigation plans which are based on the expected rainfall, resources are saved, costs are cut down and the water wastage is reduced. Besides, exact predictions help the farmers to foresee the weather conditions and hence, they can protect the crops from the adverse conditions thereby ultimately reducing the risk of damage and thus increasing the productivity. Moreover, the planning of the application of the agricultural inputs, which are fertilizers and pesticides, based on the forecasts of the weather events, gives the farmers an advantage of the better crop health, the success of treatments, and the cost-effectiveness.</div>
+2. **Urban Planning** 
+3. **Agriculture** <div style="text-align: justify">Precise forecasts of precipitation are of utmost in developing the agricultural practices in many areas. Through the provision of farmers with the possibility of creating irrigation plans which are based on the expected rainfall, resources are saved, costs are cut down and the water wastage is reduced. Besides, exact predictions help the farmers to foresee the weather conditions and hence, they can protect the crops from the adverse conditions thereby ultimately reducing the risk of damage and thus increasing the productivity. Moreover, the planning of the application of the agricultural inputs, which are fertilizers and pesticides, based on the forecasts of the weather events, gives the farmers an advantage of the better crop health, the success of treatments, and the cost-effectiveness.
+</div>
    
+
 4. **Transportation** 
 
 Future Direction
