@@ -11,7 +11,12 @@ What is Weather Forecasting ?
 ======
 
 <div style="text-align: justify"> 
-Weather forecasting is one of the spheres that affect crops to grow, or even determine if we should travel or not, and that have to do with disaster preparedness. The traditional basis of forecasting, Numerical Weather Prediction (NWP), has been around for decades successfully fulfilling the function of capturing atmospheric dynamics in simulation models, which are highly dependent on physics. Thereby, the technologies like these on the machine learning domain together provided a better improvement in the field of weather forecasting. METNET, the type of neural network that used smart algorithms to help the forecaster’s make a prediction of rainfall intensity with an outstanding accuracy. This blog post aims to lead you into the structure of METNET which will be done by uncovering the architecture, functions, and the future potential of the model.
+<p>
+Meteorology is defined as the predictive study of the state of the atmosphere, at a given locality for a given period in the future. This elaborate procedure requires information which is usually obtained from weather stations, satellite, radar as well as weather balloons. These sources give continuous records of the conditions of the immediate environment such as; temperature, humidity, pressure, wind speed and cloudiness. Meteorologists then use this data to construct the current state of weather as it is at the given period. 
+</p> 
+<p>
+This hydrologic cycle is a most effective tool meteorologists use to predict the next day’s weather from the current day conditions by running an atmospheric model – a set of mathematical equations. Regarding Professional/Expert models, these models accommodate large amounts of data and different aspects including the pressure systems, fronts, and territory. The operation of these models allows meteorologists to forecast how the latter changes, and in what manner. 
+</p>
  </div>
 
 
