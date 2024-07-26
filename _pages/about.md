@@ -24,7 +24,9 @@ This hydrologic cycle is a most effective tool meteorologists use to predict the
 How is it done technically ??
 ======
 <div style="text-align: justify"> 
+<p>
 The traditional basis of forecasting, Numerical Weather Prediction (NWP), has been around for decades successfully fulfilling the function of capturing atmospheric dynamics in simulation models, which are highly dependent on physics. Thereby, the technologies like these on the machine learning domain together provided a better improvement in the field of weather forecasting. METNET, the type of neural network that used smart algorithms to help the forecaster’s make a prediction of rainfall intensity with an outstanding accuracy. This blog post aims to lead you into the structure of METNET which will be done by uncovering the architecture, functions, and the future potential of the model.
+</p>
  </div>
 
 
@@ -34,12 +36,27 @@ Lets see HOW is it done ?
 
 NWP
 ------
+<p>
+Numerical Weather Prediction (NWP) changes the procedure of weather forecasting by using highly computational mathematical models to replicate atmosphere. NWP models are numerical weather prediction models that assimilate a large quantity of observational data from satellites, weather stations etc producing detailed forecasts. It begins with integration of current information of the atmosphere to establish first values. Next, with the help of powerful computational resources, the models describe equations for different meteorological parameters over the 3D grid of the Earth’s atmosphere and at each time step predict future states. From this method, one is able to predict from a few hours up to weeks, which is very useful for weather forecasts and climate change studies.
+</p>
 
 NWM
 ------
+<p>
+Neural Weather Modeling or NWM is the disruption of the typical method of weather prediction, Due to the use of Artificial intelligence and Neural networks to predict the state of the atmosphere. Despite drawing a lot from traditional methods of weather predictions, NWM on the other hand, uses historical climate data and data that is received from meteorological satellites or weather observation stations and other devices. All these data are processed by so called neural networks, that is the algorithms that are capable of learning the patterns and dependency in the data. This can be beneficial in the relating of future weather conditions once a model has been learned, based on the given input and correlations to observe trends. It can therefore be employed to formulate information with regard to the weather changes and issuance of warnings, as well as representation of weather reproducibly for the determination of day-to-day weather conditions.
+</p>
+
+
+
+Diving into MetNet: Forecasting by leveraging the power of DL in weather prediction
+======
 
 What is METNET
-======
+------
+
+<div style="text-align: justify"> 
+MetNet is a deep learning model that is specially designed for the short-term forecasting of the precipitation, which is between 1 to 8 hours ahead. MetNet is distinct from the customary Numerical Weather Prediction (NWP) models as it utilizes varied sources such as satellite images, radar observations and weather prediction models to identify the complex weather patterns. Its structure consists of the spatiotemporal convolutional layers and attention mechanisms that work with the data at different scales hence, it generates the high-resolution, probable forecasts. The meteorological data and the latest training methods, on the one hand, MetNet enhances the long-term weather forecasts, on the other, it becomes an important tool for use in agriculture, disaster management, urban planning and transportation.
+</div>
 
 GIF of metnet samples 1=6
 ======
@@ -74,8 +91,6 @@ Experiments
 
 
 
-Diving into MetNet: Forecasting by leveraging the power of DL in weather prediction
-======
 
 Overview
 ------
