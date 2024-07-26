@@ -23,14 +23,13 @@ This hydrologic cycle is a most effective tool meteorologists use to predict the
 
 How is it done technically ??
 ======
-
-
 <div style="text-align: justify"> 
 The traditional basis of forecasting, Numerical Weather Prediction (NWP), has been around for decades successfully fulfilling the function of capturing atmospheric dynamics in simulation models, which are highly dependent on physics. Thereby, the technologies like these on the machine learning domain together provided a better improvement in the field of weather forecasting. METNET, the type of neural network that used smart algorithms to help the forecaster’s make a prediction of rainfall intensity with an outstanding accuracy. This blog post aims to lead you into the structure of METNET which will be done by uncovering the architecture, functions, and the future potential of the model.
  </div>
 
 
-How was it done ?
+
+Lets see HOW is it done ?
 ======
 
 NWP
