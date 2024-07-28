@@ -38,13 +38,13 @@ Lets see HOW is it done ?
 
 NWP
 ------
-<p>
+<p style="text-align: justify;">
 Numerical Weather Prediction (NWP) changes the procedure of weather forecasting by using highly computational mathematical models to replicate atmosphere. NWP models are numerical weather prediction models that assimilate a large quantity of observational data from satellites, weather stations etc producing detailed forecasts. It begins with integration of current information of the atmosphere to establish first values. Next, with the help of powerful computational resources, the models describe equations for different meteorological parameters over the 3D grid of the Earth’s atmosphere and at each time step predict future states. From this method, one is able to predict from a few hours up to weeks, which is very useful for weather forecasts and climate change studies.
 </p>
 
 NWM
 ------
-<p>
+<p style="text-align: justify;">
 Neural Weather Modeling or NWM is the disruption of the typical method of weather prediction, Due to the use of Artificial intelligence and Neural networks to predict the state of the atmosphere. Despite drawing a lot from traditional methods of weather predictions, NWM on the other hand, uses historical climate data and data that is received from meteorological satellites or weather observation stations and other devices. All these data are processed by so called neural networks, that is the algorithms that are capable of learning the patterns and dependency in the data. This can be beneficial in the relating of future weather conditions once a model has been learned, based on the given input and correlations to observe trends. It can therefore be employed to formulate information with regard to the weather changes and issuance of warnings, as well as representation of weather reproducibly for the determination of day-to-day weather conditions.
 </p>
 
