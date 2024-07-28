@@ -69,7 +69,6 @@ What is METNET
 MetNet is a deep learning model that is specially designed for the short-term forecasting of the precipitation, which is between 1 to 8 hours ahead. MetNet is distinct from the customary Numerical Weather Prediction (NWP) models as it utilizes varied sources such as satellite images, radar observations and weather prediction models to identify the complex weather patterns. Its structure consists of the spatiotemporal convolutional layers and attention mechanisms that work with the data at different scales hence, it generates the high-resolution, probable forecasts. The meteorological data and the latest training methods, on the one hand, MetNet enhances the long-term weather forecasts, on the other, it becomes an important tool for use in agriculture, disaster management, urban planning and transportation.
 </div>
 
-GIF of metnet samples 1=6
 ======
 ![MetNet sample](/images/MetNet.gif)
 
@@ -97,41 +96,44 @@ MetNet is advanced weather forecast model with a particular focus of what suitab
 Target Patch 
 ------
 ![Metnet target](/images/target.png)
-
+<p style="text-align: justify;" >
+If MetNet has to predict the weather up to 8 hours in advance, it examines a huge area of 1024 x 1024 kilometers so as to register every activity concerning the weather in the vicinity of the targeted area. It primarily zeroes in on the 64* 64 km square in the middle, but encases it in a 480-kilometer ring that helps it monitor any shift in the weather the location may be experiencing, ensuring it has enough information for accurate prediction.
+</p>
 
 
 Output Layer
 ------
 ![Metnet target](/images/output.png)
-
-
+<p style="text-align: justify;" >
+MetNet’s output is a forecast covering 512 categories to show varying intensity of rainfall, which ranges from a particular level to another. These categories impound the rainfall rate ranging from 0 mm/h to 102. 4 mm/h; they can be classified as low-intensity rain with a rate determined according to the following scale: 0. 2 mm/h intervals. Any rate of rainfall more than 102. 4 mm/h is and belongs to the last group of the lower maximum intensity rate. In order to see the probability of some given range of rainfall or rates above some barrier one sums up the probabilities of the corresponding categories.
+</p>
 
 Spatial Downsampler
 ------
 ![Metnet target](/images/down.png)
 
+<p style="text-align: justify;" >
+ Due to the problem of memory and computing resources, MetNet performs several convolution and pooling to shrink the input data set in order to capture all essential details. Every time slice of the input is resized to 256*256 and is passed through a 3*3 convolution layers having 160 filters followed by 3 * 3 convolution layers having 256 filters and 2 * 2 max pooling reducing its size in each step. The final outcome of this process is that the size of a time slice has been reduced to 64 x 64 with 256 channel values for the data to enable further processing by the chosen model.
+</p>
+
 Temporal Encoder
 ------
 ![Metnet target](/images/temp.png)
 
+<p style="text-align: justify;" >
+The second part of MetNet takes care of processing the input data over time, in which the contracted time slices are passed to a recurrent neural network (RNN) sequentially in time. For instance, it applies a ConvLSTM with a 3 x 3 receptive filed and 384 channels to learn temporal features. This increases the influence of the recent data slices, and the final output – 64x64 tensor with the channel number of 384 – contains information about the input patch both by spatial and temporal dimensions.
+</p>
+
+
+
 Spatial Aggregator
 ------
 ![Metnet target](/images/aggregator.png)
-
+<p style="text-align: justify;" >
+To ensure MetNet covers the entire spatial context of the input patch, the third part uses eight axial self-attention blocks, with four operating along the width and four along the height. Each block has 2048 channels and 16 attention heads, effectively capturing the full context with fewer computations than traditional self-attention. This approach allows MetNet to reach the global context in just two blocks instead of the 32 blocks required by standard 3x3 convolutions, resulting in a model with 225 million parameters.
+</p>
 Experiments 
 ======
-
-
-
-
-
-
-
-
-
-
-Model Description 
-------
 
 
 
