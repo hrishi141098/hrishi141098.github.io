@@ -62,16 +62,21 @@ GIF of metnet samples 1=6
 ======
 ![MetNet sample](/images/MetNet.gif)
 
-
+<p>
+If you want to see all samples you can click to the below youtube link !
+</p>
 [![METNET](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2F-dAvqroX7ZI%3Ffeature%3Dshared)](https://youtu.be/-dAvqroX7ZI?feature=shared)
 
 
 
 Elements OF Metnet
 ======
+![Metnet architecture](/images/modelArchitecture.png)
 
 INPUT Patch 
 ------
+![Metnet input](/images/inp-1.png)   ![Metnet input](/images/inp-2.png)
+
 
 Target Patch 
 ------
@@ -107,7 +112,7 @@ MetNet is a deep learning model that is specially designed for the short-term fo
 
 Model Description 
 ------
-![Metnet architecture](/images/modelArchitecture.png)
+
 ![Metnet Input data](/images/MetnetInput.png)
 ![phy vs neural](/images/phyVsNeural.png)!
 ![Metnet Input data](/images/dataPatterns.png)
