@@ -77,9 +77,14 @@ INPUT Patch
 ------
 ![Metnet input](/images/inp-1.png)   ![Metnet input](/images/inp-2.png)
 
+<img src="/images/inp-1.png" alt="Image 1" style="width:45%; display:inline-block; margin-right:10px;">
+<img src="/images/inp-2.png" alt="Image 2" style="width:45%; display:inline-block;">
+
+
 
 Target Patch 
 ------
+
 
 Output Layer
 ------
