@@ -60,9 +60,8 @@ MetNet is a deep learning model that is specially designed for the short-term fo
 
 GIF of metnet samples 1=6
 ======
-<video width="320" height="240" controls>
-  <source src="C:\Users\hp\Downloads\Metnet.mp4" type="video/mp4">
-</video>
+
+[![METNET](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2F-dAvqroX7ZI%3Ffeature%3Dshared)](https://youtu.be/-dAvqroX7ZI?feature=shared)
 
 
 
