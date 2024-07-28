@@ -34,6 +34,8 @@ The traditional basis of forecasting, Numerical Weather Prediction (NWP), has be
 Lets see HOW is it done ?
 ======
 
+![phy vs neural](/images/phyVsNeural.png)!
+
 NWP
 ------
 <p>
@@ -48,8 +50,8 @@ Neural Weather Modeling or NWM is the disruption of the typical method of weathe
 
 NWP vs NWM
 ------
+![MetNet sample](/images/comparison.png)
 
-![phy vs neural](/images/phyVsNeural.png)!
 
 Diving into MetNet: Forecasting by leveraging the power of DL in weather prediction
 ======
