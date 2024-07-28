@@ -52,6 +52,12 @@ NWP vs NWM
 ------
 ![MetNet sample](/images/comparison.png)
 
+Overview
+------
+
+<div style="text-align: justify"> 
+MetNet is a deep learning model that is specially designed for the short-term forecasting of the precipitation, which is between 1 to 8 hours ahead. MetNet is distinct from the customary Numerical Weather Prediction (NWP) models as it utilizes varied sources such as satellite images, radar observations and weather prediction models to identify the complex weather patterns. Its structure consists of the spatiotemporal convolutional layers and attention mechanisms that work with the data at different scales hence, it generates the high-resolution, probable forecasts. The meteorological data and the latest training methods, on the one hand, MetNet enhances the long-term weather forecasts, on the other, it becomes an important tool for use in agriculture, disaster management, urban planning and transportation.
+</div>
 
 Diving into MetNet: Forecasting by leveraging the power of DL in weather prediction
 ======
@@ -83,14 +89,16 @@ INPUT Patch
 
 <img src="/images/inp-1.png" alt="Image 1" style="width:45%; display:inline-block; margin-right:10px;">
 <img src="/images/inp-2.png" alt="Image 2" style="width:45%; display:inline-block;">
-
-
+<p style="text-align: justify;" >
+MetNet is advanced weather forecast model with a particular focus of what suitable for analyzing an immense amount of data so as to determine the future state of the weather. It analyzes a four-dimensional set of information that contains time, area, and different kinds of measurements. More specifically, MetNet studies the values of 15-minutes intervals in 90 minutes preceding the predicted time. This proposition identifies a relatively big 1024 by 1024 kilometer area of the continental United States and further divides it into 1,048,576 points. The model uses one radar image for precipitation, 16 different spectral bands from GOES-16 satellite and general information about each locations’ longitude, latitude, and altitude. Furthermore, it contains the temporal attributes which include the hour, day, and the month of the prediction time distributed in the whole grid. Thus, including all this detailed data in the analysis, MetNet can provide very accurate weather predictions.
+</p>
+![Metnet Input data](/images/MetnetInput.png)
 
 Target Patch 
 ------
 ![Metnet target](/images/target.png)
 
-![Metnet Input data](/images/MetnetInput.png)
+
 
 Output Layer
 ------
@@ -120,12 +128,7 @@ Experiments
 
 
 
-Overview
-------
 
-<div style="text-align: justify"> 
-MetNet is a deep learning model that is specially designed for the short-term forecasting of the precipitation, which is between 1 to 8 hours ahead. MetNet is distinct from the customary Numerical Weather Prediction (NWP) models as it utilizes varied sources such as satellite images, radar observations and weather prediction models to identify the complex weather patterns. Its structure consists of the spatiotemporal convolutional layers and attention mechanisms that work with the data at different scales hence, it generates the high-resolution, probable forecasts. The meteorological data and the latest training methods, on the one hand, MetNet enhances the long-term weather forecasts, on the other, it becomes an important tool for use in agriculture, disaster management, urban planning and transportation.
-</div>
 
 Model Description 
 ------
