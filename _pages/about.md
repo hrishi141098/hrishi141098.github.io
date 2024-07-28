@@ -46,7 +46,10 @@ NWM
 Neural Weather Modeling or NWM is the disruption of the typical method of weather prediction, Due to the use of Artificial intelligence and Neural networks to predict the state of the atmosphere. Despite drawing a lot from traditional methods of weather predictions, NWM on the other hand, uses historical climate data and data that is received from meteorological satellites or weather observation stations and other devices. All these data are processed by so called neural networks, that is the algorithms that are capable of learning the patterns and dependency in the data. This can be beneficial in the relating of future weather conditions once a model has been learned, based on the given input and correlations to observe trends. It can therefore be employed to formulate information with regard to the weather changes and issuance of warnings, as well as representation of weather reproducibly for the determination of day-to-day weather conditions.
 </p>
 
+NWP vs NWM
+------
 
+![phy vs neural](/images/phyVsNeural.png)!
 
 Diving into MetNet: Forecasting by leveraging the power of DL in weather prediction
 ======
@@ -75,7 +78,6 @@ Elements OF Metnet
 
 INPUT Patch 
 ------
-![Metnet input](/images/inp-1.png)   ![Metnet input](/images/inp-2.png)
 
 <img src="/images/inp-1.png" alt="Image 1" style="width:45%; display:inline-block; margin-right:10px;">
 <img src="/images/inp-2.png" alt="Image 2" style="width:45%; display:inline-block;">
@@ -84,19 +86,27 @@ INPUT Patch
 
 Target Patch 
 ------
+![Metnet target](/images/target.png)
 
+![Metnet Input data](/images/MetnetInput.png)
 
 Output Layer
 ------
+![Metnet target](/images/output.png)
+
+
 
 Spatial Downsampler
 ------
+![Metnet target](/images/down.png)
 
 Temporal Encoder
 ------
+![Metnet target](/images/temp.png)
 
 Spatial Aggregator
 ------
+![Metnet target](/images/aggregator.png)
 
 Experiments 
 ======
@@ -118,8 +128,8 @@ MetNet is a deep learning model that is specially designed for the short-term fo
 Model Description 
 ------
 
-![Metnet Input data](/images/MetnetInput.png)
-![phy vs neural](/images/phyVsNeural.png)!
+
+
 ![Metnet Input data](/images/dataPatterns.png)
 
 Why better than other model ?
@@ -129,7 +139,6 @@ Other models give to some extent the forecasts, but MetNet model is outstanding 
 In conclusion, MetNet defeats all the other methods of forecasting because of the type of holistic model, a much complexer architecture with probabilistic forecasting abilities that take into account system accuracy, reliability, and feasibility.
 </div>
 
-![Metnet Input data](/images/modelComparison.png)
 
 Experiments
 ------
