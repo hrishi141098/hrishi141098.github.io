@@ -97,7 +97,7 @@ Target Patch
 ------
 
 <p align="center">
-  <img src="/images/target.png" alt="2nd experiment">
+  <img src="/images/target.png" alt="2nd experiment" style="max-width:100%; height:auto;">
 </p>
 
 <p style="text-align: justify;" >
