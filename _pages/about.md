@@ -91,6 +91,7 @@ INPUT Patch
 <p style="text-align: justify;" >
 MetNet is advanced weather forecast model with a particular focus of what suitable for analyzing an immense amount of data so as to determine the future state of the weather. It analyzes a four-dimensional set of information that contains time, area, and different kinds of measurements. More specifically, MetNet studies the values of 15-minutes intervals in 90 minutes preceding the predicted time. This proposition identifies a relatively big 1024 by 1024 kilometer area of the continental United States and further divides it into 1,048,576 points. The model uses one radar image for precipitation, 16 different spectral bands from GOES-16 satellite and general information about each locations’ longitude, latitude, and altitude. Furthermore, it contains the temporal attributes which include the hour, day, and the month of the prediction time distributed in the whole grid. Thus, including all this detailed data in the analysis, MetNet can provide very accurate weather predictions.
 </p>
+
 ![Metnet Input data](/images/MetnetInput.png)
 
 Target Patch 
@@ -107,7 +108,10 @@ If MetNet has to predict the weather up to 8 hours in advance, it examines a hug
 
 Output Layer
 ------
-![Metnet target](/images/output.png)
+<p align="center">
+  <img src="/images/output.png" alt="2nd experiment" style="max-width:100%; height:auto;">
+</p>
+
 <p style="text-align: justify;" >
 MetNet’s output is a forecast covering 512 categories to show varying intensity of rainfall, which ranges from a particular level to another. These categories impound the rainfall rate ranging from 0 mm/h to 102. 4 mm/h; they can be classified as low-intensity rain with a rate determined according to the following scale: 0. 2 mm/h intervals. Any rate of rainfall more than 102. 4 mm/h is and belongs to the last group of the lower maximum intensity rate. In order to see the probability of some given range of rainfall or rates above some barrier one sums up the probabilities of the corresponding categories.
 </p>
@@ -136,12 +140,9 @@ Spatial Aggregator
 <p style="text-align: justify;" >
 To ensure MetNet covers the entire spatial context of the input patch, the third part uses eight axial self-attention blocks, with four operating along the width and four along the height. Each block has 2048 channels and 16 attention heads, effectively capturing the full context with fewer computations than traditional self-attention. This approach allows MetNet to reach the global context in just two blocks instead of the 32 blocks required by standard 3x3 convolutions, resulting in a model with 225 million parameters.
 </p>
-Experiments 
-======
 
 
 
-![Metnet Input data](/images/dataPatterns.png)
 
 Why better than other model ?
 ------
@@ -150,9 +151,8 @@ Other models give to some extent the forecasts, but MetNet model is outstanding 
 In conclusion, MetNet defeats all the other methods of forecasting because of the type of holistic model, a much complexer architecture with probabilistic forecasting abilities that take into account system accuracy, reliability, and feasibility.
 </div>
 
-
-Experiments
-------
+Experiments 
+======
 
 ![1st experiment](/images/modelComparison.png)
 1. **Eight Hour Forecasts** Here we compare MetNet with NOAA’s current HRRR system, with a strong optical flow and with a persistence baseline using the F1 score on three precipitation rate thresholds: 0.2 mm/h, 1 mm/h and 2 mm/h. HRRR generates forecasts covering the same region as MetNet once an hour for up to 18 hours into the future at a native resolution of 3 km2. Since MetNet outputs probabilities, for each threshold we sum the probabilities along the relevant range and calibrate the corresponding F1 score on a separate validation set. MetNet outperforms HRRR substantially on the three thresholds up to a lead time of respectively 400, 440 and the full 480 minutes. MetNet is also substantially better than the optical flow method and than the persistence baseline for all lead times. The F1 score degrades for higher precipitation rate thresholds for all methods since these events become increasingly rare. Recent work using neural networks for precipitation forecasting focuses on lead times between 60 and 90 minutes with optical flow at times outperforming neural networks. MetNet is the first machine learning model to outperform HRRR and optical flow methods on a richly structured weather benchmark at such a scale and range.
