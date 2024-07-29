@@ -126,7 +126,8 @@ Spatial Downsampler
 
 Temporal Encoder
 ------
-![Metnet target](/images/temp.png)
+
+![Metnet temp](/images/temp.png)
 
 <p style="text-align: justify;" >
 The second part of MetNet takes care of processing the input data over time, in which the contracted time slices are passed to a recurrent neural network (RNN) sequentially in time. For instance, it applies a ConvLSTM with a 3 x 3 receptive filed and 384 channels to learn temporal features. This increases the influence of the recent data slices, and the final output – 64x64 tensor with the channel number of 384 – contains information about the input patch both by spatial and temporal dimensions.
