@@ -74,10 +74,11 @@ MetNet is a deep learning model that is specially designed for the short-term fo
 ======
 ![MetNet sample](/images/MetNet.gif)
 
-
+<p>
 <div style="text-align: center;">
     <iframe width="320" height="315" src="https://www.youtube.com/embed/-dAvqroX7ZI" frameborder="0" allowfullscreen></iframe>
 </div>
+</p>
 
 Elements OF Metnet
 ======
