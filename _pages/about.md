@@ -118,7 +118,10 @@ MetNet’s output is a forecast covering 512 categories to show varying intensit
 
 Spatial Downsampler
 ------
-![Metnet target](/images/down.png)
+
+<p align="center">
+  <img src="/images/down.png" alt="2nd experiment" style="max-width:100%; height:auto;">
+</p>
 
 <p style="text-align: justify;" >
  Due to the problem of memory and computing resources, MetNet performs several convolution and pooling to shrink the input data set in order to capture all essential details. Every time slice of the input is resized to 256*256 and is passed through a 3*3 convolution layers having 160 filters followed by 3 * 3 convolution layers having 256 filters and 2 * 2 max pooling reducing its size in each step. The final outcome of this process is that the size of a time slice has been reduced to 64 x 64 with 256 channel values for the data to enable further processing by the chosen model.
@@ -127,7 +130,9 @@ Spatial Downsampler
 Temporal Encoder
 ------
 
-![Metnet temp](/images/temp.png)
+<p align="center">
+  <img src="/images/temp.png" alt="2nd experiment" style="max-width:100%; height:auto;">
+</p>
 
 <p style="text-align: justify;" >
 The second part of MetNet takes care of processing the input data over time, in which the contracted time slices are passed to a recurrent neural network (RNN) sequentially in time. For instance, it applies a ConvLSTM with a 3 x 3 receptive filed and 384 channels to learn temporal features. This increases the influence of the recent data slices, and the final output – 64x64 tensor with the channel number of 384 – contains information about the input patch both by spatial and temporal dimensions.
@@ -137,7 +142,10 @@ The second part of MetNet takes care of processing the input data over time, in 
 
 Spatial Aggregator
 ------
-![Metnet target](/images/aggregator.png)
+
+<p align="center">
+  <img src="/images/aggregator.png" alt="2nd experiment" style="max-width:100%; height:auto;">
+</p>
 <p style="text-align: justify;" >
 To ensure MetNet covers the entire spatial context of the input patch, the third part uses eight axial self-attention blocks, with four operating along the width and four along the height. Each block has 2048 channels and 16 attention heads, effectively capturing the full context with fewer computations than traditional self-attention. This approach allows MetNet to reach the global context in just two blocks instead of the 32 blocks required by standard 3x3 convolutions, resulting in a model with 225 million parameters.
 </p>
