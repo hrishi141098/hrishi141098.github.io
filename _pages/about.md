@@ -90,7 +90,7 @@ INPUT Patch
 <img src="/images/inp-1.png" alt="Image 1" style="width:45%; display:inline-block; margin-right:10px;">
 <img src="/images/inp-2.png" alt="Image 2" style="width:45%; display:inline-block;">
 <p style="text-align: justify;" >
-MetNet is advanced weather forecast model with a particular focus of what suitable for analyzing an immense amount of data so as to determine the future state of the weather. It analyzes a four-dimensional set of information that contains time, area, and different kinds of measurements. More specifically, MetNet studies the values of 15-minutes intervals in 90 minutes preceding the predicted time. This proposition identifies a relatively big 1024 by 1024 kilometer area of the continental United States and further divides it into 1,048,576 points. The model uses one radar image for precipitation, 16 different spectral bands from GOES-16 satellite and general information about each locations’ longitude, latitude, and altitude. Furthermore, it contains the temporal attributes which include the hour, day, and the month of the prediction time distributed in the whole grid. Thus, including all this detailed data in the analysis, MetNet can provide very accurate weather predictions.
+MetNet is advanced weather forecast model with a particular focus of what suitable for analyzing an immense amount of data so as to determine the future state of the weather. It analyzes a four-dimensional set of information that contains time, area, and different kinds of measurements. More specifically, MetNet studies the values of 15-minutes intervals in 90 minutes preceding the predicted time. This proposition identifies a relatively big 1024 by 1024 kilometer area of the continental United States. The model uses one radar image for precipitation, 16 different spectral bands from GOES-16 satellite and general information about each locations’ longitude, latitude, and altitude. Furthermore, it contains the temporal attributes which include the hour, day, and the month of the prediction time distributed in the whole grid. Thus, including all this detailed data in the analysis, MetNet can provide very accurate weather predictions.
 </p>
 
 ![Metnet Input data](/images/MetnetInput.png)
@@ -103,7 +103,7 @@ Target Patch
 </p>
 
 <p style="text-align: justify;" >
-If MetNet has to predict the weather up to 8 hours in advance, it examines a huge area of 1024 x 1024 kilometers so as to register every activity concerning the weather in the vicinity of the targeted area. It primarily zeroes in on the 64* 64 km square in the middle, but encases it in a 480-kilometer ring that helps it monitor any shift in the weather the location may be experiencing, ensuring it has enough information for accurate prediction.
+If MetNet has to predict the weather up to 8 hours in advance, it examines a huge area of 1024 x 1024 kilometers so as to register every activity concerning the weather in the vicinity of the targeted area. It primarily zeroes in on the 64 x 64 km square in the middle, but encases it in a 480-kilometer ring that helps it monitor any shift in the weather the location may be experiencing, ensuring it has enough information for accurate prediction.
 </p>
 
 
@@ -125,7 +125,7 @@ Spatial Downsampler
 </p>
 
 <p style="text-align: justify;" >
- Due to the problem of memory and computing resources, MetNet performs several convolution and pooling to shrink the input data set in order to capture all essential details. Every time slice of the input is resized to 256*256 and is passed through a 3*3 convolution layers having 160 filters followed by 3 * 3 convolution layers having 256 filters and 2 * 2 max pooling reducing its size in each step. The final outcome of this process is that the size of a time slice has been reduced to 64 x 64 with 256 channel values for the data to enable further processing by the chosen model.
+ Due to the problem of memory and computing resources, MetNet performs several convolution and pooling to shrink the input data set in order to capture all essential details. Every time slice of the input is resized and is passed through a 3x3 convolution layers having 160 filters followed by 3 x 3 convolution layers having 256 filters and 2 x 2 max pooling reducing its size in each step. The final outcome of this process is that the size of a time slice has been reduced to 64 x 64 with 256 channel values for the data to enable further processing by the chosen model.
 </p>
 
 Temporal Encoder
@@ -136,7 +136,7 @@ Temporal Encoder
 </p>
 
 <p style="text-align: justify;" >
-The second part of MetNet takes care of processing the input data over time, in which the contracted time slices are passed to a recurrent neural network (RNN) sequentially in time. For instance, it applies a ConvLSTM with a 3 x 3 receptive filed and 384 channels to learn temporal features. This increases the influence of the recent data slices, and the final output – 64x64 tensor with the channel number of 384 – contains information about the input patch both by spatial and temporal dimensions.
+The second part of MetNet takes care of processing the input data over time, in which the contracted time slices are passed to a recurrent neural network (RNN) sequentially in time. For instance, it applies a ConvLSTM with a 3 x 3 receptive filed and 384 channels to learn temporal features. This increases the influence of the recent data slices, and the final output – 64 x 64 tensor with the channel number of 384 – contains information about the input patch both by spatial and temporal dimensions.
 </p>
 
 
