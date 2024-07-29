@@ -74,14 +74,9 @@ MetNet is a deep learning model that is specially designed for the short-term fo
 ======
 ![MetNet sample](/images/MetNet.gif)
 
-<p>
-If you want to see all samples you can click to the below youtube link !
-</p>
-
-[![METNET](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2F-dAvqroX7ZI%3Ffeature%3Dshared)](https://youtu.be/-dAvqroX7ZI?feature=shared)
 
 <div style="text-align: center;">
-    <iframe width="360" height="315" src="https://www.youtube.com/embed/-dAvqroX7ZI" frameborder="0" allowfullscreen></iframe>
+    <iframe width="320" height="315" src="https://www.youtube.com/embed/-dAvqroX7ZI" frameborder="0" allowfullscreen></iframe>
 </div>
 
 Elements OF Metnet
