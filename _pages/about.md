@@ -34,7 +34,7 @@ The traditional basis of forecasting, Numerical Weather Prediction (NWP), has be
 Lets see HOW is it done ?
 ======
 
-![phy vs neural](/images/phyVsNeural.png)
+![phy vs neural](/images/phyVsNeural.png "Image: 'Sunset Over the Mountains,' by John Doe, from Unsplash, 2023")
 
 NWP
 ------
