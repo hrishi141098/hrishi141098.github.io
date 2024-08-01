@@ -19,7 +19,7 @@ This hydrologic cycle is a most effective tool meteorologists use to predict the
 </p>
  </div>
 
-![Weather Change in the globe](/images/weather-wind.gif)
+![Weather Change in the globe](/images/weather-wind.gif)[^1]
 
 How is it done technically ??
 ======
@@ -34,7 +34,7 @@ The traditional basis of forecasting, Numerical Weather Prediction (NWP), has be
 Lets see HOW is it done ?
 ======
 
-![phy vs neural](/images/phyVsNeural.png)!
+![phy vs neural](/images/phyVsNeural.png)
 
 NWP
 ------
@@ -206,3 +206,4 @@ References
 1. Sønderby, Casper & Espeholt, Lasse & Heek, Jonathan & Dehghani, Mostafa & Oliver, Avital & Salimans, Tim & Agrawal, Shreya & Hickey, Jason & Kalchbrenner, Nal. (2020). MetNet: A Neural Weather Model for Precipitation Forecasting. 
 2. Hwang, Yunsung & Clark, Adam & Lakshmanan, Valliappa & Koch, Steven. (2015). Improved Nowcasts By Blending Extrapolation and Model Forecasts. Weather and Forecasting. 30. 150805113353005. 10.1175/WAF-D-15-0057.1. 
 3. Shreya Agrawal, Luke Barrington, Carla Bromberg, John Burge, Cenk Gazen, and Jason Hickey. Machine learning for precipitation nowcasting from radar images.
+4. Nal Kalchbrenner, Neural Weather Model MetNet: Samples - https://www.youtube.com/watch?v=-dAvqroX7ZI
