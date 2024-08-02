@@ -175,20 +175,24 @@ Experiments
 
 Real-Time Applications and Implications:
 ------
-
 <div style="text-align: justify"> 
+
+
 1. **Disaster Management** From the angle of disaster management, sed nas continuous and progressevel high-tech level of forecasting determine an elevated level of prevention and response. The real-time forecasts of MetNet meteorological platform entitle authorities to perform fast coordination of emergency services, disasters' response and evacuation procedures in an efficient manner that is suitable to tackle situations in a prompt and proficient manner. Planning ahead in the way tactical forecast does by the fact that it determines the time to reallocate resources to areas under risks of threat, will prevent many casualties of lives and more asset losses and damages. As a result, the warning to the public at the level of commercialization and in the places that are traditionally flood-endangered leads to emergency actions like evacuation, home or property protection, etc. By developing the point at which varied agencies that comprise disaster response converge, MetNet introduces a structured and coordinated approach to managing the hazards posed by dangerous weather, this provides a platform for prevention and for handling emergency cases quickly and effectively.
 </div> 
 
 <div style="text-align: justify"> 
+
 2. **Urban Planning**  The prediction of accurate precipitation is essential in stormwater management tools as well as infrastructure repair in urban areas. Cities could use this approach to provide a more proactive response to urban floods and the hazards posed by its key infrastructure. By coinciding effective alerts of approaching high precipitations along with deploying temporary fences, the hiking of effective drainage systems and deduction of flood damages can be achieved. In addition, precise weather forecasting is an enabling factor for the proactive maintenance of the infrastructure systems because the service providers install siphons and remove debris from drainage systems prior to the heavy rains and thus, the risk of traffic congestions and associated floods is minimized.
 </div> 
 
 <div style="text-align: justify"> 
+
 3. **Agriculture** Precise forecasts of precipitation are of utmost in developing the agricultural practices in many areas. Through the provision of farmers with the possibility of creating irrigation plans which are based on the expected rainfall, resources are saved, costs are cut down and the water wastage is reduced. Besides, exact predictions help the farmers to foresee the weather conditions and hence, they can protect the crops from the adverse conditions thereby ultimately reducing the risk of damage and thus increasing the productivity. Moreover, the planning of the application of the agricultural inputs, which are fertilizers and pesticides, based on the forecasts of the weather events, gives the farmers an advantage of the better crop health, the success of treatments, and the cost-effectiveness.
 </div> 
 
 <div style="text-align: justify"> 
+
 4. **Transportation** In addition to this, anticipation helps the airlines to make the strategic flight routes decisions and execute them with proper precisions, thus allowing the airlines to soften the uncommon harsh weather like extremely heavy precipitation and strong winds. Airlines can do decision taking faster and increase safety as well with the help of alternate flight paths, which are weather patterns given that these flights will lead to fewer delays. Contrarily, the shipping majority of the industries also earn advantages by rerouting ships as there are more chances of the storm becoming negligible or a vessel getting blown away through severe rain which could be risky to the ship and the cargo. Also, with this in mind, planners will be able to carry on their scheduling of port activities to a maximum capacity as operations can easily be loaded and unloaded without any chances of adverse effects due to the climate since it will be completely put to control. The road scope information includes dynamic weather forecasts advising in advance of drivers by giving warnings or suggestions during the drives.
 </div> 
 
@@ -196,10 +200,12 @@ Future Direction
 ------
 
 <div style="text-align: justify"> 
+
 1. **Expanding Forecast Durations** Current MetNet capabilities outshine just in the field of providing precise forecasts up to 8 hours ahead of time. The improvement of this horizon could be of notable help. Researchers may work on modifications of the models architecture as well as data assimilating algorithms so that the acceptable length of predictions could be increased to 24 or 48 hours. The added implication will involve how certain the future is over a longer period of time and this requires more complex handling of these processes as well as data integration.
 </div> 
 
 <div style="text-align: justify"> 
+
 2. **Improving Computational Efficiency** Incorporating enough computing power in MetNet is essential and necessary for it to be made operational and widely utilized. Such an exercise includes the installation of different approaches targeting accelerating the model architecture and its execution procedure. Training the neural network architecture precision will be using techniques like pruning the model, quantization, and the embracement of the lightweight convolutional network that would reduce the computational time without loosing the accuracy. In addition to this, considerable attention needs to be directed towards the scalability and real-time processing functionality that happens in the real world applications. In this goal pursued by the researchers, they focus on the fact that the processes which are involved in both training and inference should run with a nett run efficiently on the standard, accessible hardware. More so, the scalability and speed are further enhanced through the parallel processing and distributed computing techniques. Therefore, solutions for energy efficiency issues become very important. Thus, software that will run the model with less energy and the hardware accelerators like GPU and TPU that can accomplish the same meaning with less computational power. 
 </div> 
 
@@ -207,6 +213,7 @@ Future Direction
 Conclusion
 ------
 <div style="text-align: justify"> 
+
 Therefore, metnet is the trendsetter in weather prediction, leading to an epoch of confident and exact pronouncement of short-term detailed rainfall forecasts. Its innovation puts forward system reinforced by up-to-date deep learning algorithms and the thorough combination of different weather data sets. This represented a huge step-up in comparison with the earlier generation models. MetNet makes it to surpass conventional Numerical Weather Prediction (NWP) models and other machine learning approaches in terms of accuracy and versatility through its ability to correctly and precisely imitate a web of particular atmospheric patterns related in time and space. It has become the powerhouse of weather prediction since its probabilistic forecasts are coupled with the high ability to distinguish dangerous weather’s complexities—agriculture, disaster management, urban planning, transportation, and many others of the many endeavors on which it is being relied upon. However, MetNet is definitely on track to progress further, but different opportunities for corrections come to mind. One of the central tasks when developing AI-powered systems is supporting the systems to be adaptive in various geographical regions as well as expanding the diversity of training datasets. The partnership with leading meteorological organizations around the world will not only help stronghold, MetNet's, resilience but also fortify it across diverse climatic domains. In addition to that the computational power remains most powerful and the further research upon the perfect techniques is the necessity. MetNet not only acts as a revolutionary tool for the weather forecasting but also is a landmark of endurance and readiness in overcoming the grave risks of the unstable nature even in global scale.
 </div>
 
