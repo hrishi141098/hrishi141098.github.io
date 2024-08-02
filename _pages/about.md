@@ -175,7 +175,7 @@ Experiments
 
 Real-Time Applications and Implications:
 ------
-
+<div style="text-align: justify"> 
 
 1. **Disaster Management** From the angle of disaster management, sed nas continuous and progressevel high-tech level of forecasting determine an elevated level of prevention and response. The real-time forecasts of MetNet meteorological platform entitle authorities to perform fast coordination of emergency services, disasters' response and evacuation procedures in an efficient manner that is suitable to tackle situations in a prompt and proficient manner. Planning ahead in the way tactical forecast does by the fact that it determines the time to reallocate resources to areas under risks of threat, will prevent many casualties of lives and more asset losses and damages. As a result, the warning to the public at the level of commercialization and in the places that are traditionally flood-endangered leads to emergency actions like evacuation, home or property protection, etc. By developing the point at which varied agencies that comprise disaster response converge, MetNet introduces a structured and coordinated approach to managing the hazards posed by dangerous weather, this provides a platform for prevention and for handling emergency cases quickly and effectively.
 
@@ -192,7 +192,7 @@ Future Direction
 1. **Expanding Forecast Durations** Current MetNet capabilities outshine just in the field of providing precise forecasts up to 8 hours ahead of time. The improvement of this horizon could be of notable help. Researchers may work on modifications of the models architecture as well as data assimilating algorithms so that the acceptable length of predictions could be increased to 24 or 48 hours. The added implication will involve how certain the future is over a longer period of time and this requires more complex handling of these processes as well as data integration.
 
 2. **Improving Computational Efficiency** Incorporating enough computing power in MetNet is essential and necessary for it to be made operational and widely utilized. Such an exercise includes the installation of different approaches targeting accelerating the model architecture and its execution procedure. Training the neural network architecture precision will be using techniques like pruning the model, quantization, and the embracement of the lightweight convolutional network that would reduce the computational time without loosing the accuracy. In addition to this, considerable attention needs to be directed towards the scalability and real-time processing functionality that happens in the real world applications. In this goal pursued by the researchers, they focus on the fact that the processes which are involved in both training and inference should run with a nett run efficiently on the standard, accessible hardware. More so, the scalability and speed are further enhanced through the parallel processing and distributed computing techniques. Therefore, solutions for energy efficiency issues become very important. Thus, software that will run the model with less energy and the hardware accelerators like GPU and TPU that can accomplish the same meaning with less computational power. 
-
+</div> 
 
 Conclusion
 ------
