@@ -197,8 +197,9 @@ Experiments
 From the angle of disaster management, sed nas continuous and progressevel high-tech level of forecasting determine an elevated level of prevention and response. The real-time forecasts of MetNet meteorological platform entitle authorities to perform fast coordination of emergency services, disasters' response and evacuation procedures in an efficient manner that is suitable to tackle situations in a prompt and proficient manner. Planning ahead in the way tactical forecast does by the fact that it determines the time to reallocate resources to areas under risks of threat, will prevent many casualties of lives and more asset losses and damages. As a result, the warning to the public at the level of commercialization and in the places that are traditionally flood-endangered leads to emergency actions like evacuation, home or property protection, etc. 
   </p>
 
+<p style="text-align: justify;">
 By developing the point at which varied agencies that comprise disaster response converge, MetNet introduces a structured and coordinated approach to managing the hazards posed by dangerous weather, this provides a platform for prevention and for handling emergency cases quickly and effectively.
-
+</p>
 
 
 **Urban Planning**  
@@ -237,8 +238,10 @@ Current MetNet capabilities outshine just in the field of providing precise fore
 Incorporating enough computing power in MetNet is essential and necessary for it to be made operational and widely utilized. Such an exercise includes the installation of different approaches targeting accelerating the model architecture and its execution procedure. Training the neural network architecture precision will be using techniques like pruning the model, quantization, and the embracement of the lightweight convolutional network that would reduce the computational time without loosing the accuracy. In addition to this, considerable attention needs to be directed towards the scalability and real-time processing functionality that happens in the real world applications. In this goal pursued by the researchers, they focus on the fact that the processes which are involved in both training and inference should run with a nett run efficiently on the standard, accessible hardware. More so, the scalability and speed are further enhanced through the parallel processing and distributed computing techniques. Therefore, solutions for energy efficiency issues become very important. Thus, software that will run the model with less energy and the hardware accelerators like GPU and TPU that can accomplish the same meaning with less computational power. 
 </p>
 
+
 Conclusion
 ------
+
 
 <p style="text-align: justify;">
 Therefore, metnet is the trendsetter in weather prediction, leading to an epoch of confident and exact pronouncement of short-term detailed rainfall forecasts. Its innovation puts forward system reinforced by up-to-date deep learning algorithms and the thorough combination of different weather data sets. This represented a huge step-up in comparison with the earlier generation models. 
@@ -250,10 +253,9 @@ The partnership with leading meteorological organizations around the world will 
 </p>
 
 
-
-
 References 
 ------
+
 1. Sønderby, Casper & Espeholt, Lasse & Heek, Jonathan & Dehghani, Mostafa & Oliver, Avital & Salimans, Tim & Agrawal, Shreya & Hickey, Jason & Kalchbrenner, Nal. (2020). MetNet: A Neural Weather Model for Precipitation Forecasting. 
 2. Hwang, Yunsung & Clark, Adam & Lakshmanan, Valliappa & Koch, Steven. (2015). Improved Nowcasts By Blending Extrapolation and Model Forecasts. Weather and Forecasting. 30. 150805113353005. 10.1175/WAF-D-15-0057.1. 
 3. Shreya Agrawal, Luke Barrington, Carla Bromberg, John Burge, Cenk Gazen, and Jason Hickey. Machine learning for precipitation nowcasting from radar images.
