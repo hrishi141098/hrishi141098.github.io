@@ -157,7 +157,10 @@ To ensure MetNet covers the entire spatial context of the input patch, the third
 Why better than other model ?
 ------
 <div style="text-align: justify"> 
+<p>
 Other models give to some extent the forecasts, but MetNet model is outstanding due to its singularity and high precision in the following areas:MetNet differs from the traditional model that is based on NWP models only by combining neural networks with different meteorological data. These information from this fusion helps MetNet interpret the weather conditions very accurately and detailedly to get more reliable forecasts.There is an intelligent part in the MetNet's design (convolutional layers) which helps with the analysis of huge and complex meteorological data. With the ability of following the changing complex weather operations the feature is important for real-time weather forecasting.MetNet is also contrasted to the other models which only possess a single form of definite outcome. The seasonal forecast in MetNet provides this sector with probabilistic forecast information with meaningful operating information around weather uncertainty issues. Hence, its decision making can be based on the forecast scenarios.
+</p>
+<p>
 In conclusion, MetNet defeats all the other methods of forecasting because of the type of holistic model, a much complexer architecture with probabilistic forecasting abilities that take into account system accuracy, reliability, and feasibility.
 </div>
 
