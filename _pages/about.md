@@ -191,7 +191,7 @@ Experiments
 
 
 Real-Time Applications and Implications:
-------
+======
 
 **Disaster Management**  
 
@@ -225,7 +225,7 @@ In addition to this, anticipation helps the airlines to make the strategic fligh
 </p> 
 
 Future Direction
-------
+======
 
 
 
@@ -243,7 +243,7 @@ Incorporating enough computing power in MetNet is essential and necessary for it
 
 
 Conclusion
-------
+======
 
 
 <p style="text-align: justify;">
@@ -257,7 +257,7 @@ The partnership with leading meteorological organizations around the world will 
 
 
 References 
-------
+======
 
 1. Sønderby, Casper & Espeholt, Lasse & Heek, Jonathan & Dehghani, Mostafa & Oliver, Avital & Salimans, Tim & Agrawal, Shreya & Hickey, Jason & Kalchbrenner, Nal. (2020). MetNet: A Neural Weather Model for Precipitation Forecasting. 
 2. Hwang, Yunsung & Clark, Adam & Lakshmanan, Valliappa & Koch, Steven. (2015). Improved Nowcasts By Blending Extrapolation and Model Forecasts. Weather and Forecasting. 30. 150805113353005. 10.1175/WAF-D-15-0057.1. 
