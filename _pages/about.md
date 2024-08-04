@@ -190,9 +190,8 @@ Experiments
 
 
 
-## Real-Time Applications and Implications:
-
----
+Real-Time Applications and Implications:
+------
 
 **Disaster Management**  
 
