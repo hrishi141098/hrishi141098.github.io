@@ -168,16 +168,20 @@ In conclusion, MetNet defeats all the other methods of forecasting because of th
 Experiments 
 ======
 
-![1st experiment](/images/modelComparison.png)
+
 **Eight Hour Forecasts** 
+
+![1st experiment](/images/modelComparison.png)
 
 <p style="text-align: justify">Here we compare MetNet with NOAA’s current HRRR system, with a strong optical flow and with a persistence baseline using the F1 score on three precipitation rate thresholds: 0.2 mm/h, 1 mm/h and 2 mm/h. HRRR generates forecasts covering the same region as MetNet once an hour for up to 18 hours into the future at a native resolution of 3 km2. Since MetNet outputs probabilities, for each threshold we sum the probabilities along the relevant range and calibrate the corresponding F1 score on a separate validation set. MetNet outperforms HRRR substantially on the three thresholds up to a lead time of respectively 400, 440 and the full 480 minutes. </p> 
 <p>MetNet is also substantially better than the optical flow method and than the persistence baseline for all lead times. The F1 score degrades for higher precipitation rate thresholds for all methods since these events become increasingly rare. Recent work using neural networks for precipitation forecasting focuses on lead times between 60 and 90 minutes with optical flow at times outperforming neural networks. MetNet is the first machine learning model to outperform HRRR and optical flow methods on a richly structured weather benchmark at such a scale and range.
 </p>
 
-![2nd experiment](/images/2ndExp.png)
+
 
 **Ablation Experiments** 
+
+![2nd experiment](/images/2ndExp.png)
 
 <p style="text-align: justify"> Ablation experiments shed light on the importance of capturing spatial and temporal context and the importance of the various data sources in the input. The first ablation experiment reduces the spatial size of the input patch to 512 km. The very first convolutional layer in the spatial downsampling part of MetNet is removed and all else is kept exactly the same. The performance of this configuration, called MetNet-ReducedSpatial, is similar to MetNet up to 150 minutes and then it starts to become progressively worse. This indicates the importance of the large spatial context used as input as well as the ability of MetNet’s architecture to capture information contained in the original receptive field of 1024 km. This contrasts with other neural networks used for 1 hour precipitation forecasting that have a U-Net-style architecture. The receptive field of these networks at the border of the target patch is limited and likely hurts their performance and suitability for the task. 
 </p>
