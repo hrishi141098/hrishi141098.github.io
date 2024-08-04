@@ -251,9 +251,13 @@ Therefore, metnet is the trendsetter in weather prediction, leading to an epoch 
 </p>
 <p style="text-align: justify;">
 MetNet makes it to surpass conventional Numerical Weather Prediction (NWP) models and other machine learning approaches in terms of accuracy and versatility through its ability to correctly and precisely imitate a web of particular atmospheric patterns related in time and space. It has become the powerhouse of weather prediction since its probabilistic forecasts are coupled with the high ability to distinguish dangerous weather’s complexities—agriculture, disaster management, urban planning, transportation, and many others of the many endeavors on which it is being relied upon. However, MetNet is definitely on track to progress further, but different opportunities for corrections come to mind. One of the central tasks when developing AI-powered systems is supporting the systems to be adaptive in various geographical regions as well as expanding the diversity of training datasets. 
+</p>
 <p style="text-align: justify;">
 The partnership with leading meteorological organizations around the world will not only help stronghold, MetNet's, resilience but also fortify it across diverse climatic domains. In addition to that the computational power remains most powerful and the further research upon the perfect techniques is the necessity. MetNet not only acts as a revolutionary tool for the weather forecasting but also is a landmark of endurance and readiness in overcoming the grave risks of the unstable nature even in global scale.
 </p>
+
+
+
 
 
 References 
