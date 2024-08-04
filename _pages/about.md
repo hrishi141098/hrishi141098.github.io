@@ -162,6 +162,7 @@ Other models give to some extent the forecasts, but MetNet model is outstanding 
 </p>
 <p>
 In conclusion, MetNet defeats all the other methods of forecasting because of the type of holistic model, a much complexer architecture with probabilistic forecasting abilities that take into account system accuracy, reliability, and feasibility.
+</p>
 </div>
 
 Experiments 
