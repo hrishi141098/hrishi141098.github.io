@@ -173,12 +173,13 @@ Experiments
 
 
 
-Real-Time Applications and Implications:
-------
+## Real-Time Applications and Implications:
 
+---
 
+1. **Disaster Management**  
+From the angle of disaster management, sed nas continuous and progressevel high-tech level of forecasting determine an elevated level of prevention and response. The real-time forecasts of MetNet meteorological platform entitle authorities to perform fast coordination of emergency services, disasters' response and evacuation procedures in an efficient manner that is suitable to tackle situations in a prompt and proficient manner. Planning ahead in the way tactical forecast does by the fact that it determines the time to reallocate resources to areas under risks of threat, will prevent many casualties of lives and more asset losses and damages. As a result, the warning to the public at the level of commercialization and in the places that are traditionally flood-endangered leads to emergency actions like evacuation, home or property protection, etc. 
 
-1. **Disaster Management**  From the angle of disaster management, sed nas continuous and progressevel high-tech level of forecasting determine an elevated level of prevention and response. The real-time forecasts of MetNet meteorological platform entitle authorities to perform fast coordination of emergency services, disasters' response and evacuation procedures in an efficient manner that is suitable to tackle situations in a prompt and proficient manner. Planning ahead in the way tactical forecast does by the fact that it determines the time to reallocate resources to areas under risks of threat, will prevent many casualties of lives and more asset losses and damages. As a result, the warning to the public at the level of commercialization and in the places that are traditionally flood-endangered leads to emergency actions like evacuation, home or property protection, etc. 
 By developing the point at which varied agencies that comprise disaster response converge, MetNet introduces a structured and coordinated approach to managing the hazards posed by dangerous weather, this provides a platform for prevention and for handling emergency cases quickly and effectively.
 
 
