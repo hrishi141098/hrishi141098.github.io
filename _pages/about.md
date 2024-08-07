@@ -114,6 +114,13 @@ Target Patch
 [1]
 </p>
 
+<p align="center" style="position: relative; display: inline-block;">
+  <img src="/images/target.png" alt="2nd experiment" style="max-width:100%; height:auto;">
+  <span style="position: absolute; bottom: 0; right: 0; padding: 5px;">[1]</span>
+</p>
+
+
+
 <p style="text-align: justify;" >
 If MetNet has to predict the weather up to 8 hours in advance, it examines a huge area of 1024 x 1024 kilometers so as to register every activity concerning the weather in the vicinity of the targeted area. It primarily zeroes in on the 64 x 64 km square in the middle, but encases it in a 480-kilometer ring that helps it monitor any shift in the weather the location may be experiencing, ensuring it has enough information for accurate prediction.
 </p>
