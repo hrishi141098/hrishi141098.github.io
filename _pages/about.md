@@ -252,6 +252,7 @@ By developing the point at which varied agencies that comprise disaster response
   <img src="/images/urban.jpeg" alt="2nd experiment" style="max-width:100%; height:auto;">
 </p>
 
+*Image: Urban Planning with help of DL* [Microsoft Image Designer](https://designer.microsoft.com/) 
 
 <p style="text-align: justify;">
 The prediction of accurate precipitation is essential in stormwater management tools as well as infrastructure repair in urban areas. Cities could use this approach to provide a more proactive response to urban floods and the hazards posed by its key infrastructure. By coinciding effective alerts of approaching high precipitations along with deploying temporary fences, the hiking of effective drainage systems and deduction of flood damages can be achieved. In addition, precise weather forecasting is an enabling factor for the proactive maintenance of the infrastructure systems because the service providers install siphons and remove debris from drainage systems prior to the heavy rains and thus, the risk of traffic congestions and associated floods is minimized.
@@ -265,7 +266,7 @@ The prediction of accurate precipitation is essential in stormwater management t
   <img src="/images/agri.jpeg" alt="2nd experiment" style="max-width:100%; height:auto;">
  <span style="position: absolute; bottom: 0; right: 0; margin: 5px;">[1]</span>
 </p>
-
+*Image: Agriculture with help of DL* [Microsoft Image Designer](https://designer.microsoft.com/) 
 
 <p style="text-align: justify;">
 Precise forecasts of precipitation are of utmost in developing the agricultural practices in many areas. Through the provision of farmers with the possibility of creating irrigation plans which are based on the expected rainfall, resources are saved, costs are cut down and the water wastage is reduced. Besides, exact predictions help the farmers to foresee the weather conditions and hence, they can protect the crops from the adverse conditions thereby ultimately reducing the risk of damage and thus increasing the productivity. Moreover, the planning of the application of the agricultural inputs, which are fertilizers and pesticides, based on the forecasts of the weather events, gives the farmers an advantage of the better crop health, the success of treatments, and the cost-effectiveness.
