@@ -226,7 +226,7 @@ The prediction of accurate precipitation is essential in stormwater management t
 
 **Agriculture** 
 
-<p align="center">
+<p align="center" style="position: relative; display: inline-block;" >
   <img src="/images/agri.jpeg" alt="2nd experiment" style="max-width:100%; height:auto;">
  <span style="position: absolute; bottom: 0; right: 0; margin: 5px;">[1]</span>
 </p>
