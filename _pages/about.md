@@ -83,7 +83,7 @@ MetNet is a deep learning model that is specially designed for the short-term fo
 
 Elements OF Metnet
 ======
-![Metnet architecture](/images/modelArchitecture.png)
+![Metnet architecture](/images/modelArchitecture.png) [1]
 
 INPUT Patch 
 ------
