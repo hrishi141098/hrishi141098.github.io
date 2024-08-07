@@ -241,9 +241,7 @@ Precise forecasts of precipitation are of utmost in developing the agricultural 
   <img src="/images/transport.jpeg" alt="2nd experiment" style="max-width:100%; height:auto;">
 </p>
 
-[Visit OpenAI](https://www.openai.com)
-
-*Image: Tranpotation with DL [Microsoft Image Designer](https://designer.microsoft.com/) *
+*Image: Tranpotation with DL* [Microsoft Image Designer](https://designer.microsoft.com/) 
 
 <p style="text-align: justify;">
 In addition to this, anticipation helps the airlines to make the strategic flight routes decisions and execute them with proper precisions, thus allowing the airlines to soften the uncommon harsh weather like extremely heavy precipitation and strong winds. Airlines can do decision taking faster and increase safety as well with the help of alternate flight paths, which are weather patterns given that these flights will lead to fewer delays. Contrarily, the shipping majority of the industries also earn advantages by rerouting ships as there are more chances of the storm becoming negligible or a vessel getting blown away through severe rain which could be risky to the ship and the cargo. Also, with this in mind, planners will be able to carry on their scheduling of port activities to a maximum capacity as operations can easily be loaded and unloaded without any chances of adverse effects due to the climate since it will be completely put to control. The road scope information includes dynamic weather forecasts advising in advance of drivers by giving warnings or suggestions during the drives.
