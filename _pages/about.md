@@ -111,13 +111,11 @@ Target Patch
 
 <p align="center">
   <img src="/images/target.png" alt="2nd experiment" style="max-width:100%; height:auto;">
+<p align="right">
 [1]
 </p>
-
-<p align="center" style="position: relative; display: inline-block;">
-  <img src="/images/target.png" alt="2nd experiment" style="max-width:100%; height:auto;">
-  <span style="position: absolute; bottom: 0; right: 0; padding: 5px;">[1]</span>
 </p>
+
 
 
 
@@ -131,6 +129,9 @@ Output Layer
 <p align="center">
   <img src="/images/output.png" alt="2nd experiment" style="max-width:100%; height:auto;">
 </p>
+<p align="right">
+[1]
+</p>
 
 <p style="text-align: justify;" >
 MetNet’s output is a forecast covering 512 categories to show varying intensity of rainfall, which ranges from a particular level to another. These categories impound the rainfall rate ranging from 0 mm/h to 102. 4 mm/h; they can be classified as low-intensity rain with a rate determined according to the following scale: 0. 2 mm/h intervals. Any rate of rainfall more than 102. 4 mm/h is and belongs to the last group of the lower maximum intensity rate. In order to see the probability of some given range of rainfall or rates above some barrier one sums up the probabilities of the corresponding categories.
@@ -142,7 +143,9 @@ Spatial Downsampler
 <p align="center">
   <img src="/images/down.png" alt="2nd experiment" style="max-width:100%; height:auto;">
 </p>
-
+<p align="right">
+[1]
+</p>
 <p style="text-align: justify;" >
  Due to the problem of memory and computing resources, MetNet performs several convolution and pooling to shrink the input data set in order to capture all essential details. Every time slice of the input is resized and is passed through a 3x3 convolution layers having 160 filters followed by 3 x 3 convolution layers having 256 filters and 2 x 2 max pooling reducing its size in each step. The final outcome of this process is that the size of a time slice has been reduced to 64 x 64 with 256 channel values for the data to enable further processing by the chosen model.
 </p>
@@ -152,6 +155,9 @@ Temporal Encoder
 
 <p align="center">
   <img src="/images/temp.png" alt="2nd experiment" style="max-width:100%; height:auto;">
+</p>
+<p align="right">
+[1]
 </p>
 
 <p style="text-align: justify;" >
@@ -165,6 +171,9 @@ Spatial Aggregator
 
 <p align="center">
   <img src="/images/aggregator.png" alt="2nd experiment" style="max-width:100%; height:auto;">
+</p>
+<p align="right">
+[1]
 </p>
 <p style="text-align: justify;" >
 To ensure MetNet covers the entire spatial context of the input patch, the third part uses eight axial self-attention blocks, with four operating along the width and four along the height. Each block has 2048 channels and 16 attention heads, effectively capturing the full context with fewer computations than traditional self-attention. This approach allows MetNet to reach the global context in just two blocks instead of the 32 blocks required by standard 3x3 convolutions, resulting in a model with 225 million parameters.
@@ -192,6 +201,10 @@ Experiments
 
 ![1st experiment](/images/modelComparison.png)
 
+<p align="right">
+[1]
+</p>
+
 <p style="text-align: justify">Here we compare MetNet with NOAA’s current HRRR system, with a strong optical flow and with a persistence baseline using the F1 score on three precipitation rate thresholds: 0.2 mm/h, 1 mm/h and 2 mm/h. HRRR generates forecasts covering the same region as MetNet once an hour for up to 18 hours into the future at a native resolution of 3 km2. Since MetNet outputs probabilities, for each threshold we sum the probabilities along the relevant range and calibrate the corresponding F1 score on a separate validation set. MetNet outperforms HRRR substantially on the three thresholds up to a lead time of respectively 400, 440 and the full 480 minutes. </p> 
 <p>MetNet is also substantially better than the optical flow method and than the persistence baseline for all lead times. The F1 score degrades for higher precipitation rate thresholds for all methods since these events become increasingly rare. Recent work using neural networks for precipitation forecasting focuses on lead times between 60 and 90 minutes with optical flow at times outperforming neural networks. MetNet is the first machine learning model to outperform HRRR and optical flow methods on a richly structured weather benchmark at such a scale and range.
 </p>
@@ -201,6 +214,10 @@ Experiments
 **Ablation Experiments** 
 
 ![2nd experiment](/images/2ndExp.png)
+
+<p align="right">
+[1]
+</p>
 
 <p style="text-align: justify"> Ablation experiments shed light on the importance of capturing spatial and temporal context and the importance of the various data sources in the input. The first ablation experiment reduces the spatial size of the input patch to 512 km. The very first convolutional layer in the spatial downsampling part of MetNet is removed and all else is kept exactly the same. The performance of this configuration, called MetNet-ReducedSpatial, is similar to MetNet up to 150 minutes and then it starts to become progressively worse. This indicates the importance of the large spatial context used as input as well as the ability of MetNet’s architecture to capture information contained in the original receptive field of 1024 km. This contrasts with other neural networks used for 1 hour precipitation forecasting that have a U-Net-style architecture. The receptive field of these networks at the border of the target patch is limited and likely hurts their performance and suitability for the task. 
 </p>
