@@ -102,12 +102,18 @@ MetNet is advanced weather forecast model with a particular focus of what suitab
 </p>
 
 ![Metnet Input data](/images/MetnetInput.png)
+<p align="right">
+[1]
+</p>
 
 Target Patch 
 ------
 
 <p align="center">
   <img src="/images/target.png" alt="2nd experiment" style="max-width:100%; height:auto;">
+  <p align="right">
+[1]
+</p>
 </p>
 
 <p style="text-align: justify;" >
