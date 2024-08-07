@@ -235,6 +235,7 @@ Real-Time Applications and Implications:
   <img src="/images/disaster.jpeg" alt="2nd experiment" style="max-width:100%; height:auto;">
 </p>
 
+*Image: Disaster Management with help of DL* [Microsoft Image Designer](https://designer.microsoft.com/) 
 
 <p style="text-align: justify;">
 
