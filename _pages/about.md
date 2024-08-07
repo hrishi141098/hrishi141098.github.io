@@ -94,6 +94,10 @@ INPUT Patch
 <img src="/images/inp-1.png" alt="Image 1" style="width:45%; display:inline-block; margin-right:10px;">
 <img src="/images/inp-2.png" alt="Image 2" style="width:45%; display:inline-block;">
 <p style="text-align: justify;" >
+
+<p align="right">
+[1]
+</p>
 MetNet is advanced weather forecast model with a particular focus of what suitable for analyzing an immense amount of data so as to determine the future state of the weather. It analyzes a four-dimensional set of information that contains time, area, and different kinds of measurements. More specifically, MetNet studies the values of 15-minutes intervals in 90 minutes preceding the predicted time. This proposition identifies a relatively big 1024 by 1024 kilometer area of the continental United States. The model uses one radar image for precipitation, 16 different spectral bands from GOES-16 satellite and general information about each location's longitude, latitude, and altitude. Furthermore, it contains the temporal attributes which include the hour, day, and the month of the prediction time distributed in the whole grid. Thus, including all this detailed data in the analysis, MetNet can provide very accurate weather predictions.
 </p>
 
