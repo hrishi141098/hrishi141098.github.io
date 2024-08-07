@@ -6,6 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+ 
 
 What is Weather Forecasting ? 
 ======
@@ -21,7 +22,7 @@ This hydrologic cycle is a most effective tool meteorologists use to predict the
 
 ![Weather Change in the globe](/images/weather-wind.gif)[^1]
 
-How is it done technically ??
+How is it done technically ?
 ======
 <div style="text-align: justify"> 
 <p>
@@ -195,6 +196,11 @@ Real-Time Applications and Implications:
 
 **Disaster Management**  
 
+<p align="center">
+  <img src="/images/disaster.jpeg" alt="2nd experiment" style="max-width:100%; height:auto;">
+</p>
+
+
 <p style="text-align: justify;">
 
 From the angle of disaster management, sed nas continuous and progressevel high-tech level of forecasting determine an elevated level of prevention and response. The real-time forecasts of MetNet meteorological platform entitle authorities to perform fast coordination of emergency services, disasters' response and evacuation procedures in an efficient manner that is suitable to tackle situations in a prompt and proficient manner. Planning ahead in the way tactical forecast does by the fact that it determines the time to reallocate resources to areas under risks of threat, will prevent many casualties of lives and more asset losses and damages. As a result, the warning to the public at the level of commercialization and in the places that are traditionally flood-endangered leads to emergency actions like evacuation, home or property protection, etc. 
@@ -206,6 +212,12 @@ By developing the point at which varied agencies that comprise disaster response
 
 
 **Urban Planning**  
+
+<p align="center">
+  <img src="/images/urban.jpeg" alt="2nd experiment" style="max-width:100%; height:auto;">
+</p>
+
+
 <p style="text-align: justify;">
 The prediction of accurate precipitation is essential in stormwater management tools as well as infrastructure repair in urban areas. Cities could use this approach to provide a more proactive response to urban floods and the hazards posed by its key infrastructure. By coinciding effective alerts of approaching high precipitations along with deploying temporary fences, the hiking of effective drainage systems and deduction of flood damages can be achieved. In addition, precise weather forecasting is an enabling factor for the proactive maintenance of the infrastructure systems because the service providers install siphons and remove debris from drainage systems prior to the heavy rains and thus, the risk of traffic congestions and associated floods is minimized.
 
@@ -214,11 +226,20 @@ The prediction of accurate precipitation is essential in stormwater management t
 
 **Agriculture** 
 
+<p align="center">
+  <img src="/images/agri.jpeg" alt="2nd experiment" style="max-width:100%; height:auto;">
+</p>
+
+
 <p style="text-align: justify;">
 Precise forecasts of precipitation are of utmost in developing the agricultural practices in many areas. Through the provision of farmers with the possibility of creating irrigation plans which are based on the expected rainfall, resources are saved, costs are cut down and the water wastage is reduced. Besides, exact predictions help the farmers to foresee the weather conditions and hence, they can protect the crops from the adverse conditions thereby ultimately reducing the risk of damage and thus increasing the productivity. Moreover, the planning of the application of the agricultural inputs, which are fertilizers and pesticides, based on the forecasts of the weather events, gives the farmers an advantage of the better crop health, the success of treatments, and the cost-effectiveness.
 </p>
 
 **Transportation** 
+
+<p align="center">
+  <img src="/images/transport.jpeg" alt="2nd experiment" style="max-width:100%; height:auto;">
+</p>
 
 <p style="text-align: justify;">
 In addition to this, anticipation helps the airlines to make the strategic flight routes decisions and execute them with proper precisions, thus allowing the airlines to soften the uncommon harsh weather like extremely heavy precipitation and strong winds. Airlines can do decision taking faster and increase safety as well with the help of alternate flight paths, which are weather patterns given that these flights will lead to fewer delays. Contrarily, the shipping majority of the industries also earn advantages by rerouting ships as there are more chances of the storm becoming negligible or a vessel getting blown away through severe rain which could be risky to the ship and the cargo. Also, with this in mind, planners will be able to carry on their scheduling of port activities to a maximum capacity as operations can easily be loaded and unloaded without any chances of adverse effects due to the climate since it will be completely put to control. The road scope information includes dynamic weather forecasts advising in advance of drivers by giving warnings or suggestions during the drives.
