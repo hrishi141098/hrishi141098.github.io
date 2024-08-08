@@ -96,6 +96,7 @@ INPUT Patch
 
 <img src="/images/inp-1.png" alt="Image 1" style="width:45%; display:inline-block; margin-right:10px;">
 <img src="/images/inp-2.png" alt="Image 2" style="width:45%; display:inline-block;">
+
 <p style="text-align: justify;" >
 
 <p align="right">
@@ -105,6 +106,7 @@ MetNet is advanced weather forecast model with a particular focus of what suitab
 </p>
 
 ![Metnet Input data](/images/MetnetInput.png)
+
 <p align="right">
 [1]
 </p>
@@ -146,6 +148,7 @@ Spatial Downsampler
 <p align="center">
   <img src="/images/down.png" alt="2nd experiment" style="max-width:100%; height:auto;">
 </p>
+
 <p align="right">
 [1]
 </p>
