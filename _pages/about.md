@@ -13,14 +13,14 @@ What is Weather Forecasting ?
 
 <div style="text-align: justify"> 
 <p>
-Meteorology is defined as the predictive study of the state of the atmosphere, at a given locality for a given period in the future. This elaborate procedure requires information which is usually obtained from weather stations, satellite, radar as well as weather balloons. These sources give continuous records of the conditions of the immediate environment such as; temperature, humidity, pressure, wind speed and cloudiness. Meteorologists then use this data to construct the current state of weather as it is at the given period. 
+Forecasting is defined as the predictive study of the state of the atmosphere, at a given locality for a given period in the future. This elaborate procedure requires information which is usually obtained from weather stations, satellite, radar as well as weather balloons. These sources give continuous records of the conditions of the immediate environment such as - temperature, humidity, pressure, wind speed and cloudiness. Meteorologists then use this data to construct the current state of weather as it is at the given period. 
 </p> 
 <p>
-This hydrologic cycle is a most effective tool meteorologists use to predict the next day’s weather from the current day conditions by running an atmospheric model – a set of mathematical equations. Regarding Professional/Expert models, these models accommodate large amounts of data and different aspects including the pressure systems, fronts, and territory. The operation of these models allows meteorologists to forecast how the latter changes, and in what manner. 
+This hydrologic cycle is a most effective tool meteorologists use to predict the next day’s weather from the current day conditions by running an atmospheric model – a set of mathematical equations. Regarding professional models, these models accommodate large amounts of data and different aspects including the pressure systems, fronts and territory. The operation of these models allows meteorologists to forecast how the weather changes and in what manner. 
 </p>
  </div>
 
-![Weather Change in the globe](/images/weather-wind.gif)[^1]
+![Weather Change in the globe](/images/weather-wind.gif)
 
 How is it done technically ?
 ======
@@ -37,10 +37,14 @@ Lets see HOW is it done ?
 
 ![phy vs neural](/images/phyVsNeural.png "Image: 'Sunset Over the Mountains,' by John Doe, from Unsplash, 2023")
 
+<p align="right">
+[1]
+</p>
+
 NWP
 ------
 <p style="text-align: justify;">
-Numerical Weather Prediction (NWP) changes the procedure of weather forecasting by using highly computational mathematical models to replicate atmosphere. NWP models are numerical weather prediction models that assimilate a large quantity of observational data from satellites, weather stations etc producing detailed forecasts. It begins with integration of current information of the atmosphere to establish first values. Next, with the help of powerful computational resources, the models describe equations for different meteorological parameters over the 3D grid of the Earth’s atmosphere and at each time step predict future states. From this method, one is able to predict from a few hours up to weeks, which is very useful for weather forecasts and climate change studies.
+Numerical Weather Prediction (NWP) changes the procedure of weather forecasting by using highly computational mathematical models to replicate atmosphere. NWP models are numerical weather prediction models that assimilate a large quantity of observational data from satellites, weather stations etc producing detailed forecasts. It begins with integration of current information of the atmosphere to establish first values. Next, with the help of powerful computational resources, the models describe equations for different meteorological parameters over the 3D grid of the earth’s atmosphere and at each time step predict future states. From this method, one is able to predict from a few hours up to weeks, which is very useful for weather forecasts and climate change studies.
 </p>
 
 NWM
@@ -53,14 +57,6 @@ NWP vs NWM
 ------
 ![MetNet sample](/images/comparison.png)
 
-Overview
-------
-
-<div style="text-align: justify"> 
-<p>
-MetNet is a deep learning model that is specially designed for the short-term forecasting of the precipitation, which is between 1 to 8 hours ahead. MetNet is distinct from the customary Numerical Weather Prediction (NWP) models as it utilizes varied sources such as satellite images, radar observations and weather prediction models to identify the complex weather patterns. Its structure consists of the spatiotemporal convolutional layers and attention mechanisms that work with the data at different scales hence, it generates the high-resolution, probable forecasts. The meteorological data and the latest training methods, on the one hand, MetNet enhances the long-term weather forecasts, on the other, it becomes an important tool for use in agriculture, disaster management, urban planning and transportation.
-</p>
-</div>
 
 Diving into MetNet: Forecasting by leveraging the power of DL in weather prediction
 ======
@@ -69,10 +65,14 @@ What is METNET
 ------
 
 <div style="text-align: justify"> 
+<p align="justify">
 MetNet is a deep learning model that is specially designed for the short-term forecasting of the precipitation, which is between 1 to 8 hours ahead. MetNet is distinct from the customary Numerical Weather Prediction (NWP) models as it utilizes varied sources such as satellite images, radar observations and weather prediction models to identify the complex weather patterns. Its structure consists of the spatiotemporal convolutional layers and attention mechanisms that work with the data at different scales hence, it generates the high-resolution, probable forecasts. The meteorological data and the latest training methods, on the one hand, MetNet enhances the long-term weather forecasts, on the other, it becomes an important tool for use in agriculture, disaster management, urban planning and transportation.
+</p>
+<p align="justify">
+Below you can see some samples from the comparison of Metnet(NWM), Ground Truth and HRRR (NWP) model respectively.
+</p>
 </div>
 
-======
 ![MetNet sample](/images/MetNet.gif)
 
 <p>
@@ -205,7 +205,9 @@ Regarding the abilities of <strong>MetNet</strong>, it has ability to handle lar
 <p align="center">
   <img src="/images/axial.png" alt="axial" style="max-width:100%; height:auto;">
 </p>
-
+<p align="right">
+[5]
+</p>
 
 
 Experiments 
