@@ -97,11 +97,13 @@ INPUT Patch
 <img src="/images/inp-1.png" alt="Image 1" style="width:45%; display:inline-block; margin-right:10px;">
 <img src="/images/inp-2.png" alt="Image 2" style="width:45%; display:inline-block;">
 
-<p style="text-align: justify;" >
-
 <p align="right">
 [1]
-</p align="justify">
+</p>
+
+<p style="text-align: justify;" >
+
+
 MetNet is advanced weather forecast model with a particular focus of what suitable for analyzing an immense amount of data so as to determine the future state of the weather. It analyzes a four-dimensional set of information that contains time, area, and different kinds of measurements. More specifically, MetNet studies the values of 15-minutes intervals in 90 minutes preceding the predicted time. This proposition identifies a relatively big 1024 x 1024 kilometer area. The model uses one radar image for precipitation, 16 different spectral bands from GOES-16 satellite and general information about each location's longitude, latitude, and altitude. Furthermore, it contains the temporal attributes which include the hour, day, and the month of the prediction time distributed in the whole grid. 
 </p>
 
@@ -152,6 +154,7 @@ Spatial Downsampler
 <p align="right">
 [1]
 </p>
+
 <p style="text-align: justify;" >
  Due to the problem of memory and computing resources, MetNet performs several convolution and pooling to shrink the input data set in order to capture all essential details. Every time slice of the input is resized and is passed through a 3 x 3 convolution layers having  followed by 3 x 3 convolution layers having 256 filters and 2 x 2 max pooling reducing its size in each step. The final outcome of this process is that the size of a time slice has been reduced to 64 x 64 with 256 channel values for the data to enable further processing by the chosen model.
 </p>
