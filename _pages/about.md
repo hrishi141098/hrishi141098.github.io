@@ -100,8 +100,8 @@ INPUT Patch
 
 <p align="right">
 [1]
-</p>
-MetNet is advanced weather forecast model with a particular focus of what suitable for analyzing an immense amount of data so as to determine the future state of the weather. It analyzes a four-dimensional set of information that contains time, area, and different kinds of measurements. More specifically, MetNet studies the values of 15-minutes intervals in 90 minutes preceding the predicted time. This proposition identifies a relatively big 1024 by 1024 kilometer area of the continental United States. The model uses one radar image for precipitation, 16 different spectral bands from GOES-16 satellite and general information about each location's longitude, latitude, and altitude. Furthermore, it contains the temporal attributes which include the hour, day, and the month of the prediction time distributed in the whole grid. Thus, including all this detailed data in the analysis, MetNet can provide very accurate weather predictions.
+</p align="justify">
+MetNet is advanced weather forecast model with a particular focus of what suitable for analyzing an immense amount of data so as to determine the future state of the weather. It analyzes a four-dimensional set of information that contains time, area, and different kinds of measurements. More specifically, MetNet studies the values of 15-minutes intervals in 90 minutes preceding the predicted time. This proposition identifies a relatively big 1024 x 1024 kilometer area. The model uses one radar image for precipitation, 16 different spectral bands from GOES-16 satellite and general information about each location's longitude, latitude, and altitude. Furthermore, it contains the temporal attributes which include the hour, day, and the month of the prediction time distributed in the whole grid. 
 </p>
 
 ![Metnet Input data](/images/MetnetInput.png)
@@ -137,7 +137,7 @@ Output Layer
 </p>
 
 <p style="text-align: justify;" >
-MetNet’s output is a forecast covering 512 categories to show varying intensity of rainfall, which ranges from a particular level to another. These categories impound the rainfall rate ranging from 0 mm/h to 102. 4 mm/h; they can be classified as low-intensity rain with a rate determined according to the following scale: 0. 2 mm/h intervals. Any rate of rainfall more than 102. 4 mm/h is and belongs to the last group of the lower maximum intensity rate. In order to see the probability of some given range of rainfall or rates above some barrier one sums up the probabilities of the corresponding categories.
+MetNet’s output is a forecast covering 512 categories to show varying intensity of rainfall, which ranges from a particular level to another. These categories impound the rainfall rate ranging from 0 mm/h to 102.4 mm/h; they can be classified as low-intensity rain with a rate determined according to the following scale: 0. 2 mm/h intervals. Any rate of rainfall more than 102. 4 mm/h is and belongs to the last group of the maximum intensity rate. In order to see the probability of some given range of rainfall or rates above some barrier one sums up the probabilities of the corresponding categories.
 </p>
 
 Spatial Downsampler
@@ -150,7 +150,7 @@ Spatial Downsampler
 [1]
 </p>
 <p style="text-align: justify;" >
- Due to the problem of memory and computing resources, MetNet performs several convolution and pooling to shrink the input data set in order to capture all essential details. Every time slice of the input is resized and is passed through a 3x3 convolution layers having 160 filters followed by 3 x 3 convolution layers having 256 filters and 2 x 2 max pooling reducing its size in each step. The final outcome of this process is that the size of a time slice has been reduced to 64 x 64 with 256 channel values for the data to enable further processing by the chosen model.
+ Due to the problem of memory and computing resources, MetNet performs several convolution and pooling to shrink the input data set in order to capture all essential details. Every time slice of the input is resized and is passed through a 3 x 3 convolution layers having  followed by 3 x 3 convolution layers having 256 filters and 2 x 2 max pooling reducing its size in each step. The final outcome of this process is that the size of a time slice has been reduced to 64 x 64 with 256 channel values for the data to enable further processing by the chosen model.
 </p>
 
 Temporal Encoder
@@ -189,10 +189,10 @@ Why better than other model ?
 ------
 <div style="text-align: justify"> 
 <p>
-Other models give to some extent the forecasts, but MetNet model is outstanding due to its singularity and high precision in the following areas:MetNet differs from the traditional model that is based on NWP models only by combining neural networks with different meteorological data. These information from this fusion helps MetNet interpret the weather conditions very accurately and detailedly to get more reliable forecasts.There is an intelligent part in the MetNet's design (convolutional layers) which helps with the analysis of huge and complex meteorological data. With the ability of following the changing complex weather operations the feature is important for real-time weather forecasting.MetNet is also contrasted to the other models which only possess a single form of definite outcome. The seasonal forecast in MetNet provides this sector with probabilistic forecast information with meaningful operating information around weather uncertainty issues. Hence, its decision making can be based on the forecast scenarios.
+Other models give to some extent the forecasts, but MetNet model is outstanding due to its singularity and high precision. MetNet differs from the traditional model that is based on NWP models only by combining neural networks with different meteorological data. These information from this fusion helps MetNet interpret the weather conditions very accurately and detailedly to get more reliable forecasts.There is an intelligent part in the MetNet's design (convolutional layers) which helps with the analysis of huge and complex meteorological data. With the ability of following the changing complex weather operations the feature is important for real-time weather forecasting.MetNet is also contrasted to the other models which only possess a single form of definite outcome. The seasonal forecast in MetNet provides this sector with probabilistic forecast information with meaningful operating information around weather uncertainty issues. Hence, its decision making can be based on the forecast scenarios.
 </p>
 <p>
-In conclusion, MetNet defeats all the other methods of forecasting because of the type of holistic model, a much complexer architecture with probabilistic forecasting abilities that take into account system accuracy, reliability, and feasibility.
+MetNet defeats all the other methods of forecasting because of the type of holistic model, a much complexer architecture with probabilistic forecasting abilities that take into account system accuracy, reliability, and feasibility.
 </p>
 </div>
 
@@ -238,7 +238,11 @@ Experiments
 
 <p style="text-align: justify"> Ablation experiments shed light on the importance of capturing spatial and temporal context and the importance of the various data sources in the input. The first ablation experiment reduces the spatial size of the input patch to 512 km. The very first convolutional layer in the spatial downsampling part of MetNet is removed and all else is kept exactly the same. The performance of this configuration, called MetNet-ReducedSpatial, is similar to MetNet up to 150 minutes and then it starts to become progressively worse. This indicates the importance of the large spatial context used as input as well as the ability of MetNet’s architecture to capture information contained in the original receptive field of 1024 km. This contrasts with other neural networks used for 1 hour precipitation forecasting that have a U-Net-style architecture. The receptive field of these networks at the border of the target patch is limited and likely hurts their performance and suitability for the task. 
 </p>
-<p style="text-align: justify">The second ablation configuration is called MetNet-Reduced Temporal and reduces the temporal context of MetNet’s input features from 90 minutes prior to Tx to 30 minutes prior to Tx. This does not affect MetNet’s performance significantly and suffices to capture the advection in the input patch. In the MetNet-GOESOnly configuration, we evaluate the contribution of the MRMS data and the ability of MetNet to predict precipitation rate from just the globally available GOES-16 data. Despite starting off substantially worse, MetNet-GOESOnly’s performance approaches that of the full MetNet configuration with increasing hours of lead time suggesting that MRMS data becomes less necessary with time.
+<p style="text-align: justify">The second ablation configuration is called MetNet-Reduced Temporal and reduces the temporal context of MetNet’s input features from 90 minutes prior to Tx to 30 minutes prior to Tx. This does not affect MetNet’s performance significantly and suffices to capture the advection in the input patch.
+</p>
+
+<p style="text-align: justify">
+ In the MetNet-GOESOnly configuration, we evaluate the contribution of the MRMS data and the ability of MetNet to predict precipitation rate from just the globally available GOES-16 data. Despite starting off substantially worse, MetNet-GOESOnly’s performance approaches that of the full MetNet configuration with increasing hours of lead time suggesting that MRMS data becomes less necessary with time.
 </p>
 
 
@@ -256,12 +260,8 @@ Real-Time Applications and Implications:
 
 <p style="text-align: justify;">
 
-From the angle of disaster management, sed nas continuous and progressevel high-tech level of forecasting determine an elevated level of prevention and response. The real-time forecasts of MetNet meteorological platform entitle authorities to perform fast coordination of emergency services, disasters' response and evacuation procedures in an efficient manner that is suitable to tackle situations in a prompt and proficient manner. Planning ahead in the way tactical forecast does by the fact that it determines the time to reallocate resources to areas under risks of threat, will prevent many casualties of lives and more asset losses and damages. As a result, the warning to the public at the level of commercialization and in the places that are traditionally flood-endangered leads to emergency actions like evacuation, home or property protection, etc. 
+From the angle of disaster management, continuous and progressive high-tech level of forecasting determine an elevated level of prevention and response. The real-time forecasts of MetNet meteorological platform entitle authorities to perform fast coordination of emergency services, disaster's response and evacuation procedures in an efficient manner that is suitable to tackle situations in a prompt and proficient manner. Planning ahead in the way tactical forecast does by the fact that it determines the time to reallocate resources to areas under risks of threat, will prevent many casualties of lives and more asset losses and damages. As a result, the warning to the public and in the places that are traditionally flood-endangered leads to emergency actions like evacuation, home or property protection.
   </p>
-
-<p style="text-align: justify;">
-By developing the point at which varied agencies that comprise disaster response converge, MetNet introduces a structured and coordinated approach to managing the hazards posed by dangerous weather, this provides a platform for prevention and for handling emergency cases quickly and effectively.
-</p>
 
 
 **Urban Planning**  
@@ -325,10 +325,13 @@ Conclusion
 
 
 <p style="text-align: justify;">
-Therefore, metnet is the trendsetter in weather prediction, leading to an epoch of confident and exact pronouncement of short-term detailed rainfall forecasts. Its innovation puts forward system reinforced by up-to-date deep learning algorithms and the thorough combination of different weather data sets. This represented a huge step-up in comparison with the earlier generation models. 
+Therefore, metnet is the trendsetter in weather prediction, leading to an  confident short-term detailed rainfall forecasts. Its innovation puts forward system reinforced by up-to-date deep learning algorithms and the thorough combination of different weather data sets. This represented a huge step-up in comparison with the earlier generation models. 
 </p>
 <p style="text-align: justify;">
-MetNet makes it to surpass conventional Numerical Weather Prediction (NWP) models and other machine learning approaches in terms of accuracy and versatility through its ability to correctly and precisely imitate a web of particular atmospheric patterns related in time and space. It has become the powerhouse of weather prediction since its probabilistic forecasts are coupled with the high ability to distinguish dangerous weather’s complexities—agriculture, disaster management, urban planning, transportation, and many others of the many endeavors on which it is being relied upon. However, MetNet is definitely on track to progress further, but different opportunities for corrections come to mind. One of the central tasks when developing AI-powered systems is supporting the systems to be adaptive in various geographical regions as well as expanding the diversity of training datasets. 
+MetNet makes it to surpass conventional Numerical Weather Prediction (NWP) models and other machine learning approaches in terms of accuracy and versatility through its ability to correctly and precisely imitate a web of particular atmospheric patterns related in time and space. It has become the powerhouse of weather prediction since its probabilistic forecasts are coupled with the high ability to distinguish dangerous weather’s complexities—agriculture, disaster management, urban planning, transportation, and many others of the many endeavors on which it is being relied upon. 
+</p>
+<p style="text-align: justify;">
+However, MetNet is definitely on track to progress further, but different opportunities for corrections come to mind. One of the central tasks when developing AI-powered systems is supporting the systems to be adaptive in various geographical regions as well as expanding the diversity of training datasets. 
 </p>
 <p style="text-align: justify;">
 The partnership with leading meteorological organizations around the world will not only help stronghold, MetNet's, resilience but also fortify it across diverse climatic domains. In addition to that the computational power remains most powerful and the further research upon the perfect techniques is the necessity. MetNet not only acts as a revolutionary tool for the weather forecasting but also is a landmark of endurance and readiness in overcoming the grave risks of the unstable nature even in global scale.
