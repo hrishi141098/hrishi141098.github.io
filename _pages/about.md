@@ -200,8 +200,10 @@ What is Special in METNET ?
 ======
 
 <p align="justify">
-Regarding the abilities of <strong>MetNet</strong>, it has ability to handle large data easily and axial attention helps in the improvement of weather forecasting by understanding massive data like high-resolution satellite images. Imagine trying to understand a big map: In the case of the standard self-attention, it is as if one wants to match every location on the map with every other point simultaneously, and this does not work efficiently, and quickly gets overwhelming. Axial attention makes this easier by first attending to one axis at a time in a way that, for instance, one is looking at the row elements first and then the column ones. This is much quicker and requires less memory which enables MetNet to quickly transverse large maps of weather data and make forecast that do not become overwhelmed by the amount of data.
-
+Regarding the abilities of <strong>MetNet</strong>, it has ability to handle large data easily and <strong>axial attention</strong> helps in the improvement of weather forecasting by understanding massive data like high-resolution satellite images. Imagine trying to understand a big map: In the case of the standard self-attention, it is as if one wants to match every location on the map with every other point simultaneously, and this does not work efficiently, and quickly gets overwhelming. Axial attention makes this easier by first attending to one axis at a time in a way that, for instance, one is looking at the row elements first and then the column ones. This is much <strong>quicker</strong> and requires <strong>less memory</strong> which enables MetNet to quickly transverse large maps of weather data and make forecast that do not become overwhelmed by the amount of data.
+</p>
+<p align="center">
+  <img src="/images/axial.png" alt="axial" style="max-width:100%; height:auto;">
 </p>
 
 
@@ -341,3 +343,6 @@ References
 2. Hwang, Yunsung & Clark, Adam & Lakshmanan, Valliappa & Koch, Steven. (2015). Improved Nowcasts By Blending Extrapolation and Model Forecasts. Weather and Forecasting. 30. 150805113353005. 10.1175/WAF-D-15-0057.1. 
 3. Shreya Agrawal, Luke Barrington, Carla Bromberg, John Burge, Cenk Gazen, and Jason Hickey. Machine learning for precipitation nowcasting from radar images.
 4. Nal Kalchbrenner, Neural Weather Model MetNet: Samples - https://www.youtube.com/watch?v=-dAvqroX7ZI
+5. Ho, Jonathan & Kalchbrenner, Nal & Weißenborn, Dirk & Salimans, Tim. (2019). Axial Attention in Multidimensional Transformers. 
+
+
