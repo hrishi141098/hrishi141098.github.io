@@ -200,7 +200,7 @@ What is Special in METNET ?
 ======
 
 <p align="justify">
-Regarding the abilities of  **MetNet**  , it has ability to handle large data easily and axial attention helps in the improvement of weather forecasting by understanding massive data like high-resolution satellite images. Imagine trying to understand a big map: In the case of the standard self-attention, it is as if one wants to match every location on the map with every other point simultaneously, and this does not work efficiently, and quickly gets overwhelming. Axial attention makes this easier by first attending to one axis at a time in a way that, for instance, one is looking at the row elements first and then the column ones. This is much quicker and requires less memory which enables MetNet to quickly transverse large maps of weather data and make forecast that do not become overwhelmed by the amount of data.
+Regarding the abilities of <strong>MetNet</strong>, it has ability to handle large data easily and axial attention helps in the improvement of weather forecasting by understanding massive data like high-resolution satellite images. Imagine trying to understand a big map: In the case of the standard self-attention, it is as if one wants to match every location on the map with every other point simultaneously, and this does not work efficiently, and quickly gets overwhelming. Axial attention makes this easier by first attending to one axis at a time in a way that, for instance, one is looking at the row elements first and then the column ones. This is much quicker and requires less memory which enables MetNet to quickly transverse large maps of weather data and make forecast that do not become overwhelmed by the amount of data.
 
 </p>
 
